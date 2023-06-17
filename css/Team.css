@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppings', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.Team .member{
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background: #fff;
+}
+.Team .member .teampic{
+    overflow: hidden;
+    width: 140;
+    border-radius: 100%
+}
+
+.Team .member .member-info{
+    padding-left: 30px
+}
+.Team .member h4{
+    font-weight: 700%;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #34495e;
+}
+
+.Team .member span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 20px;
+    position: relative;
+    font-weight: 500;
+}
+.Team .member span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    left: 0;
+}
+.Team .member p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+.Team .member .social{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Team .member .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #eff2f8
+}
+.Team .member .social a i{
+    color: #34495e;
+    font-size: 16px;
+    margin: 0 2px;
+}
+.Team .member .social a:hover{
+    background: cyan;
+}
+.Team .member .social a:hover i{
+    background: white;
+}
+.Team .member .social a+a{
+    margin-left: 8px;
+}
+section{
+    padding: 60px 0;
+    overflow: hidden;
+} 
+
+.section-title{
+    text-align:center;
+    padding-bottom: 300px;
+}
+.underline{
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+margin-top: -30px;
+}
+
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px; 
+    position: center;
+    color: #34495e;
+}
+.section-title p{
+    margin-top: 20px;
+}
+
+/*===========FOOTER STARTS===========*/
+footer{
+    background-color: #658354;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 7px 3px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 1cqw;
+    margin: 10px;
+    border-radius: 90%;
+}
+
+.socialIcons a i{
+    font-size: 10em;
+    color: black !important;
+    opacity: 17;
+}
+
+/*Hover Effects on Social Media Icons */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{ 
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{ 
+    opacity: 1;
+}
+.footerBottom{
+background-color: #658354;
+padding: 20px;
+text-align: center;
+}
+.footerBottom p{ 
+    color: white; 
+}
+.designer class{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    font-weight: 400;
+    margin: 0px 5px;
+}
+/*===========FOOTER ENDS===========*/
